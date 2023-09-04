@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background: hsl(212, 45%, 89%);
+}
+
+.principal{
+    position: absolute;
+    background: hsl(0, 0%, 100%);
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 29%;
+    margin-left: 9.5%;
+    border-radius: 3vh;
+    -webkit-border-radius: 3vh;
+    -moz-border-radius: 3vh;
+    -ms-border-radius: 3vh;
+    -o-border-radius: 3vh;
+    box-shadow: 0 0 1vh 1vh hsla(212, 45%, 89%, .5);
+}
+
+.principal img{
+    position: absolute;
+    padding: 5% 5%;
+    width: 90%;
+    height: 50%;
+    margin-top: -75%;
+    border-radius: 3vh;
+    -webkit-border-radius: 3vh;
+    -moz-border-radius: 3vh;
+    -ms-border-radius: 3vh;
+    -o-border-radius: 3vh;
+}
+
+.principal h1{
+    position: absolute;
+    text-align: center;
+    font-size: 150%;
+    margin-top: 60%;
+    padding: 0 10%;
+    line-height: 120%;
+    color: hsl(218, 44%, 22%);
+}
+
+.principal p{
+    position: absolute;
+    padding: 0 12%;
+    text-align: center;
+    margin-top: 110%;
+    color: hsl(220, 15%, 55%);
+}
+
+@media screen and (min-width: 1440px){
+    .principal{
+        position: absolute;
+        background: hsl(0, 0%, 100%);
+        width: 20%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 7.5%;
+        margin-left: 40%;
+        border-radius: 3vh;
+        -webkit-border-radius: 3vh;
+        -moz-border-radius: 3vh;
+        -ms-border-radius: 3vh;
+        -o-border-radius: 3vh;
+        box-shadow: 0 0 1vh 1vh hsla(212, 45%, 89%, .5);
+    }
+}
